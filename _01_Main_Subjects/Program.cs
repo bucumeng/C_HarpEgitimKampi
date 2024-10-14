@@ -8,74 +8,74 @@ namespace _01_MainSubejects
         {
             #region YazdırmaKomutları
 
-            //Console.Write("Merhaba Dünya"); //İmleci en sağa getirir
-            //Console.WriteLine("Selam") //imleci alt satıra indirir
+            Console.Write("Merhaba Dünya"); //İmleci en sağa getirir
+            Console.WriteLine("Selam"); //imleci alt satıra indirir
 
-            //Console.WriteLine("**** Yemek Tabirleri");
-            //Console.WriteLine();
-            //Console.WriteLine("1-Çorbalar");
-            //Console.WriteLine("2-Ana Yemekler");
-            //Console.WriteLine("3-Salatalar");
-            //Console.WriteLine("4-Soğuk Başlangıçlar");
-            //Console.WriteLine("5-Tatlılar");
-            //Console.WriteLine("6-İçecekler");
-            //Console.WriteLine();
-            //Console.WriteLine("**** Yemek Tabirleri");
+            Console.WriteLine("**** Yemek Tabirleri");
+            Console.WriteLine();
+            Console.WriteLine("1-Çorbalar");
+            Console.WriteLine("2-Ana Yemekler");
+            Console.WriteLine("3-Salatalar");
+            Console.WriteLine("4-Soğuk Başlangıçlar");
+            Console.WriteLine("5-Tatlılar");
+            Console.WriteLine("6-İçecekler");
+            Console.WriteLine();
+            Console.WriteLine("**** Yemek Tabirleri");
 
             #endregion
 
             #region String Değişkenler
 
-            ////string 
-            ////Değişken_türü değişken_adi;
+            //string 
+            //Değişken_türü değişken_adi;
 
-            ////string name;
-            ////name = "Murat";
-            ////Console.WriteLine(name);
+            //string name;
+            //name = "Murat";
+            //Console.WriteLine(name);
 
-            //string customerName;
-            //string customerSurname;
-            //string customerPhone;
-            //string customerEmail, district, city;
+            string customerName;
+            string customerSurname;
+            string customerPhone;
+            string customerEmail, district, city;
 
-            //customerName = " Ali";
-            //customerSurname = "Çınar";
-            //customerEmail = "deneme@gmail.com";
-            //customerPhone = "+9* 500 400 30 20";
-            //district = "Kadıköy";
-            //city = "İstanbul";
+            customerName = " Ali";
+            customerSurname = "Çınar";
+            customerEmail = "deneme@gmail.com";
+            customerPhone = "+9* 500 400 30 20";
+            district = "Kadıköy";
+            city = "İstanbul";
 
-            //Console.WriteLine("*** Rezervasyon Kartı");
-            //Console.WriteLine();
-            //Console.WriteLine("-----------------------------------------");
-            //Console.WriteLine("Müşteri: " + customerName + "" + customerSurname);
-            //Console.WriteLine("İletişim" + customerPhone);
-            //Console.WriteLine("Email Adresi" + customerEmail);
-            //Console.WriteLine("Adres: " + district + "/ "+ city);
-            //Console.WriteLine("-----------------------------------------");
+            Console.WriteLine("*** Rezervasyon Kartı");
+            Console.WriteLine();
+            Console.WriteLine("-----------------------------------------");
+            Console.WriteLine("Müşteri: " + customerName + "" + customerSurname);
+            Console.WriteLine("İletişim" + customerPhone);
+            Console.WriteLine("Email Adresi" + customerEmail);
+            Console.WriteLine("Adres: " + district + "/ " + city);
+            Console.WriteLine("-----------------------------------------");
 
-            //customerName = "Ayşegül";
-            //customerSurname = " Kaya";
-            //customerEmail = "ayse@gmail.comm";
-            //customerPhone = "+90 400 500 80 70";
-            //district = " Sapanca";
-            //city = " Sakarya";
+            customerName = "Ayşegül";
+            customerSurname = " Kaya";
+            customerEmail = "ayse@gmail.comm";
+            customerPhone = "+90 400 500 80 70";
+            district = " Sapanca";
+            city = " Sakarya";
 
-            //Console.WriteLine("-----------------------------------------");
-            //Console.WriteLine("Müşteri: " + customerName + "" + customerSurname);
-            //Console.WriteLine("İletişim" + customerPhone);
-            //Console.WriteLine("Email Adresi" + customerEmail);
-            //Console.WriteLine("Adres: " + district + "/ " + city);
-            //Console.WriteLine("-----------------------------------------");
+            Console.WriteLine("-----------------------------------------");
+            Console.WriteLine("Müşteri: " + customerName + "" + customerSurname);
+            Console.WriteLine("İletişim" + customerPhone);
+            Console.WriteLine("Email Adresi" + customerEmail);
+            Console.WriteLine("Adres: " + district + "/ " + city);
+            Console.WriteLine("-----------------------------------------");
 
 
             #endregion
 
             #region Int Degiskenler
 
-            //int 
-            //int number = 24;
-            //Console.WriteLine(number);
+            
+            int number = 24;
+            Console.WriteLine(number);
 
             int hamburgerPrice = 300;
             int cokePrice = 35;
