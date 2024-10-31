@@ -17,14 +17,14 @@ namespace _08_Methods
                 Console.WriteLine("Ayşe Yıldız");
                 Console.WriteLine("Hakan Öztürk");
                 Console.WriteLine("Merve Çınar");
-           }
+            }
             CustomerList();
 
             void Sum()
             {
                 int number5 = 1;
                 int number6 = 2;
-                int number7= number5 + number6;
+                int number7 = number5 + number6;
             }
             Sum();
 
@@ -80,8 +80,8 @@ namespace _08_Methods
             #endregion
 
             #region Geriye Değer Döndüren String Parametli Metotlar
-             
-            string CountryCard(string countryName, string capital, string flagColor) 
+
+            string CountryCard(string countryName, string capital, string flagColor)
             {
                 string cardInfo = "Ülke: " + countryName + "Başkent: " + capital + "Bayrak: " + flagColor;
                 return cardInfo;
@@ -89,7 +89,7 @@ namespace _08_Methods
 
             string x, y, z;
             Console.WriteLine("Ülke Adını Giriniz: ");
-            x= Console.ReadLine();
+            x = Console.ReadLine();
 
             Console.WriteLine("Başkent Adını Giriniz: ");
             y = Console.ReadLine();
@@ -125,7 +125,7 @@ namespace _08_Methods
             string ExamResult(string student, int exam1, int exam2, int exam3)
             {
                 int result = (exam1 + exam2 + exam3) / 3;
-                if(result >=50) 
+                if (result >= 50)
                 {
                     return student + "Öğrenci sınavı geçti" + "Ortalama: " + result;
                 }

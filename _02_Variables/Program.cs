@@ -70,7 +70,7 @@ namespace _02_Variables
 
             #region Char Değişkenler
 
-            
+
 
             char symbol;
             symbol = 'a';

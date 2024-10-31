@@ -42,7 +42,7 @@ namespace _04_Loops
 
             #region For Döngüsü ile karar yapıları
 
-            for (int f= 1; f <= 100; f++)
+            for (int f = 1; f <= 100; f++)
             {
                 if (i % 5 == 0)
                 {
@@ -108,7 +108,7 @@ namespace _04_Loops
             int j = 1;
             while (j <= 10)
             {
-                if(i % 3 == 0)
+                if (i % 3 == 0)
                 {
                     Console.WriteLine(j);
                 }
@@ -129,7 +129,7 @@ namespace _04_Loops
 
             #region Örnek Sınav Sorusu
 
-            int number= int.Parse(Console.ReadLine());
+            int number = int.Parse(Console.ReadLine());
             int ones, tens, hundreds;
             int sum1;
 

@@ -57,23 +57,23 @@ namespace _06_Arrays
 
             string[] colors1 = { "Sarı", "Kırmızı", "Beyaz", "Mavi", "Yeşil", "Turuncu", "Pembe" };
 
-            for(int i = 0; i < colors.Length; i++)
+            for (int i = 0; i < colors.Length; i++)
             {
                 Console.WriteLine(colors[i]);
             }
 
             int[] numbers1 = { 4, 85, 96, 74, 125, 635, 488, 7456, 2365, 1120 };
 
-            for(int i = 0;i < numbers1.Length; i++)
+            for (int i = 0; i < numbers1.Length; i++)
             {
                 if (numbers1[i] % 3 == 0)
                 {
-                    Console.WriteLine(numbers1[i]); 
+                    Console.WriteLine(numbers1[i]);
                 }
             }
 
             char[] symbols = { 'A', 'b', 'c', 'd', '+', '/', '-' };
-            for(int i = 0; i<symbols.Length; i++)
+            for (int i = 0; i < symbols.Length; i++)
             {
                 Console.WriteLine(symbols[i]);
             }
@@ -82,7 +82,7 @@ namespace _06_Arrays
 
             int maxNUmber = myArray[0];
 
-            for(int i = 0; i<myArray.Length; i++)
+            for (int i = 0; i < myArray.Length; i++)
             {
                 if (myArray[i] > maxNUmber)
                 {
@@ -97,7 +97,7 @@ namespace _06_Arrays
 
             int[] numbers2 = { 4, 85, 53, 41, 86, 10, 22, 35 };
             Array.Sort(numbers2); // Küçükten büyüğe doğru sıralama
-            for(int i = 0;i<numbers2.Length;i++)
+            for (int i = 0; i < numbers2.Length; i++)
             {
                 Console.WriteLine(numbers2[i]);
             }
@@ -127,7 +127,7 @@ namespace _06_Arrays
 
             string[] cities3 = new string[5];
 
-            for (int i = 0;i< cities.Length ; i++) 
+            for (int i = 0; i < cities.Length; i++)
             {
                 Console.Write($"Lütfen {i + 1}. Şehrini Giriniz: ");
                 cities3[i] = Console.ReadLine();
@@ -136,7 +136,7 @@ namespace _06_Arrays
             Console.WriteLine();
             Console.WriteLine("-----------------------------");
 
-            for(int i = 0; i< cities3.Length ; i++)
+            for (int i = 0; i < cities3.Length; i++)
             {
                 Console.WriteLine(cities3[i]);
             }
@@ -144,7 +144,7 @@ namespace _06_Arrays
             int[] numbers5 = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 0 };
             Console.WriteLine("Çift Sayılar");
 
-            for (int i = 0;i < numbers5.Length ; i++)
+            for (int i = 0; i < numbers5.Length; i++)
             {
                 if (numbers5[i] % 2 == 0)
                 {
@@ -167,8 +167,8 @@ namespace _06_Arrays
 
             #endregion
 
-            Console.Read(); 
-            
+            Console.Read();
+
         }
     }
 }

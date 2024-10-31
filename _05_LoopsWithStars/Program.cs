@@ -12,7 +12,7 @@ namespace _05_LoopsWithStars
         {
             #region Alt alta 10 tane yıldız oluşturma 
 
-            for (int i = 1; i<= 10; i++)
+            for (int i = 1; i <= 10; i++)
             {
                 Console.WriteLine("*");
             }
@@ -21,7 +21,7 @@ namespace _05_LoopsWithStars
 
             #region Yan yana 10 tane yıldız oluşturma 
 
-            for(int k = 1;k<= 10; k++)
+            for (int k = 1; k <= 10; k++)
             {
                 Console.Write("*");
             }
@@ -41,7 +41,7 @@ namespace _05_LoopsWithStars
 
             for (int t = 1; t <= 5; t++)
             {
-                for(int r = 1; r <= t; r++)
+                for (int r = 1; r <= t; r++)
                 {
                     Console.Write("*");
                 }
@@ -52,9 +52,9 @@ namespace _05_LoopsWithStars
 
             #region  Ters Üçgen Oluşturma
 
-            for (int s = 5; s >=1 ; s--)
+            for (int s = 5; s >= 1; s--)
             {
-                for (int a = 1;  a <=s; a++)
+                for (int a = 1; a <= s; a++)
                 {
                     Console.Write("*");
                 }
@@ -73,7 +73,7 @@ namespace _05_LoopsWithStars
                 }
                 Console.WriteLine();
             }
-            
+
             for (int s = 4; s >= 1; s--)
             {
                 for (int a = 1; a <= s; a++)
@@ -88,27 +88,27 @@ namespace _05_LoopsWithStars
             #region  Baklava Dilimi
 
             int z = 5;
-            for(int x = 1; x<=z; z++)
+            for (int x = 1; x <= z; z++)
             {
-                for(int y = z-1; y > 0; y--)
+                for (int y = z - 1; y > 0; y--)
                 {
                     Console.Write(" ");
                 }
-                for(int q=1; q<=2 * x - 1; q++)
+                for (int q = 1; q <= 2 * x - 1; q++)
                 {
                     Console.WriteLine("*");
                 }
                 Console.WriteLine();
             }
 
-            for(int x = z-1; x >= 1; x--)
+            for (int x = z - 1; x >= 1; x--)
             {
-                for(int y = z-1;y >= 0; y--)
+                for (int y = z - 1; y >= 0; y--)
                 {
                     Console.Write(" ");
                 }
 
-                for(int q = 1; q<=2 * x - 1; q++)
+                for (int q = 1; q <= 2 * x - 1; q++)
                 {
                     Console.WriteLine("*");
                 }
@@ -120,16 +120,16 @@ namespace _05_LoopsWithStars
 
             int d = 5;
 
-            for (int x = 1;x<=d; x++)
-            {   
+            for (int x = 1; x <= d; x++)
+            {
                 //boşluklar
-                for(int y = d-1; y >= 0; y--)
+                for (int y = d - 1; y >= 0; y--)
                 {
                     Console.Write(" ");
                 }
 
                 //yıldızlar
-                for(int q = 1;q<=2 * x - 1; q++)
+                for (int q = 1; q <= 2 * x - 1; q++)
                 {
                     Console.Write("*");
                 }

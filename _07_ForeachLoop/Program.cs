@@ -20,23 +20,23 @@ namespace _07_ForeachLoop
 
             string[] cities = { "milano", "roma", "budapeşte", "ankara", "istanbul", "varşova" };
 
-            foreach(string x in cities) 
+            foreach (string x in cities)
             {
                 Console.WriteLine(x);
             }
 
             int[] numbers = { 45, 78, 985, 74, 11, 22, 33, 41, 285, 6578, 1038 };
 
-            foreach(int number in numbers) 
+            foreach (int number in numbers)
             {
                 Console.WriteLine(number);
             }
 
             int[] numbers1 = { 45, 78, 985, 74, 11, 22, 33, 41, 285, 6578, 1038 };
 
-            foreach(int number in numbers1)
+            foreach (int number in numbers1)
             {
-                if(number % 2 == 0)
+                if (number % 2 == 0)
                 {
                     Console.WriteLine(number);
                 }
@@ -45,7 +45,7 @@ namespace _07_ForeachLoop
             int[] numbers2 = { 45, 78, 985, 74, 11, 22, 33, 41, 285, 6578, 1038 };
             int total = 0;
 
-            foreach(int i in numbers2)
+            foreach (int i in numbers2)
             {
                 total += i;
             }
@@ -54,14 +54,14 @@ namespace _07_ForeachLoop
             {
                 0, 1, 2, 3, 4, 5, 6, 7, 8
             };
-            foreach(int number in numbers3) // Liste sıralamak istersek foreach ı kullanabiliriz
+            foreach (int number in numbers3) // Liste sıralamak istersek foreach ı kullanabiliriz
             {
                 Console.WriteLine(number);
             }
 
             string word = "Merhaba";
 
-            foreach(char c in word)
+            foreach (char c in word)
             {
                 Console.WriteLine(c);
             }
@@ -82,7 +82,7 @@ namespace _07_ForeachLoop
             Console.WriteLine("------------------------------");
             Console.WriteLine();
             Console.WriteLine("Sınıfınızda kaç öğrenci var: ");
-            int studentCount  = int.Parse(Console.ReadLine());    
+            int studentCount = int.Parse(Console.ReadLine());
             Console.WriteLine("-------------------------------");
 
             //Öğrenci isimlerini ve not ortalamalarını saklayacak diziler
@@ -97,9 +97,9 @@ namespace _07_ForeachLoop
                 double totalExamResult = 0;
 
                 //Her öğrenci için 3 sınav girişi
-                for(int j = 0; j < 3; j++)
+                for (int j = 0; j < 3; j++)
                 {
-                    Console.Write($"{studentNames[i]} adlı öğrencinin {j+1}. sınav notunu giriniz: ");
+                    Console.Write($"{studentNames[i]} adlı öğrencinin {j + 1}. sınav notunu giriniz: ");
                     double value = double.Parse(Console.ReadLine());
                     totalExamResult += value; // notları topluyoruz
                 }
@@ -109,7 +109,7 @@ namespace _07_ForeachLoop
             }
 
             //Sıınav Ortalamaları
-            for(int i = 0; i < studentCount; i++)
+            for (int i = 0; i < studentCount; i++)
             {
                 Console.WriteLine($"{studentNames[i]} adlı öğrencinin ortalaması: + {studentExamAvg[i]}");
 
@@ -123,7 +123,7 @@ namespace _07_ForeachLoop
                     Console.WriteLine($"{studentNames[i]} adlı öğrenci derten kaldı.");
                 }
 
-                Console.WriteLine(----------------------------------------------) ;
+                Console.WriteLine(----------------------------------------------);
 
 
             }
