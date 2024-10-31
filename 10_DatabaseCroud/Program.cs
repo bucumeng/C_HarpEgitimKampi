@@ -82,7 +82,7 @@ namespace _10_DatabaseCroud
 
             #region Ürün silme işlemi
 
-            Console.Write("Silinecek ürün Id girin: ")
+            Console.Write("Silinecek ürün Id girin: ");
             int productId = int.Parse(Console.ReadLine());  
 
             SqlConnection connection3 = new SqlConnection("Data source =  LAPTOP-CHH5M51E\\SQLEXPRESS; initial catalog =EgitimKampiDb; integrated security=true");

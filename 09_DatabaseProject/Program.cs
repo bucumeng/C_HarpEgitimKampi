@@ -12,7 +12,7 @@ namespace _09_DatabaseProject
     {
         static void Main(string[] args)
         {
-            Ado.net
+            //Ado.net
 
             Console.WriteLine("***** C# Veri Tabanlı Ürün-Kategori Bilgi Sistemi ****");
             Console.WriteLine();
